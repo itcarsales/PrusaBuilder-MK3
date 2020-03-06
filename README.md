@@ -11,7 +11,7 @@
 
 3. Select your printer model. 
    - For MK3 --> skip to step 4. 
-   - For Others, in the subdirectory `"Firmware/variants/"` select the configuration file (`.h`) corresponding to your printer model, make a copy named `"Configuration_prusa.h"` and copy it into `"Firmware/"` directory.  
+   - For Others, in the subdirectory `"~/PrusaResearch/MK3/Prusa-Firmware/Firmware/variants/"` select the configuration file (`.h`) corresponding to your printer model, make a copy named `"Configuration_prusa.h"` and copy it into `"~/PrusaResearch/MK3/Prusa-Firmware/Firmware/"` directory.  
    
 4. To build the firmware, run:
 
