@@ -19,7 +19,7 @@ if [ ! -d "$HOME/PrusaResearch/MK3/Prusa-Firmware" ]; then
     exit 1
 else
     # Set path for repo location
-    REPO_PATH="$HOME/PrusaResearch/MK3/Prusa-Firmware/"
+    REPO_PATH="$HOME/PrusaResearch/MK3/Prusa-Firmware"
 fi
 ####### End Dance
 
@@ -45,7 +45,7 @@ $BUILD_ENV_PATH/arduino $REPO_PATH/Firmware/Firmware.ino --verify --board PrusaR
 export ARDUINO=$BUILD_ENV_PATH
 
 # Complete parse to language files
-cd $REPO_PATH//lang
+cd $REPO_PATH/lang
 bash lang-build.sh
 
 # Complete final firmware compile
