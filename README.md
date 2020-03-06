@@ -1,5 +1,6 @@
 # Build
 ## Linux
+### This creates a PrusaResearch directory under the users home directory to organize files and projects.  It maintains user permissions and security.
 
 1. run ```bash https://raw.githubusercontent.com/itcarsales/PrusaBuilder-MK3/master/buildENV.sh```
 
