@@ -20,10 +20,6 @@ BUILD_ENV="1.0.6.1"
 BUILD_ENV_SOURCE="https://github.com/prusa3d/PF-build-env/releases/download/$BUILD_ENV-Linux64/PF-build-env-Linux64-$BUILD_ENV.zip"
 #BUILD_ENV_SOURCE="https://github.com/3d-gussner/PF-build-env-1/releases/download/$BUILD_ENV-Linux64/PF-build-env-Linux64-$BUILD_ENV.zip"
 
-# Install GIT
-sudo apt-get -y update -y
-sudo apt-get -y install git
-
 # Setup/Verify Directories
 mkdir $HOME/PrusaResearch
 mkdir $HOME/PrusaResearch/MK3
