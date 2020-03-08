@@ -6,7 +6,9 @@
 1. The following will istall GIT and setup alternatives for python:
 
    ```sudo apt-get -y update -y; sudo apt-get -y install git python3```
+
    ```sudo update-alternatives --install /usr/bin/python python /usr/bin/python2.7 2```
+
    ```sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.5 1```
 
 2. To install the environment, run:
@@ -15,9 +17,11 @@
 
 3. Select your printer model. 
    - For MK3 --> skip to step 4. 
+
    - For Others, in the subdirectory `"~/PrusaResearch/MK3/Prusa-Firmware/Firmware/variants/"` select the configuration file (`.h`) corresponding to your printer model, make a copy named `"Configuration_prusa.h"` and copy it into `"~/PrusaResearch/MK3/Prusa-Firmware/Firmware/"` directory.  
    
 4. To build the firmware, first
+
       - Select python 3.5 using the following command: (repeat this when finished building and return to python 2.7 - because Debian)
 
       ```sudo update-alternatives --config python```
