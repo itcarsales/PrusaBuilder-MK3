@@ -4,7 +4,7 @@
 
 ### Development Directory: /home/*user*/PrusaResearch/
 
-1. The following will istall GIT and setup alternatives for python:
+1. The following will install GIT, python3, and setup alternatives:
 
    ```sudo apt-get -y update -y; sudo apt-get -y install git python3```
 
@@ -12,7 +12,7 @@
 
    ```sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.5 1```
 
-2. To install the environment, run:
+2. To install the Prusa Development Environment, run:
 
    ```bash <(curl -Ls https://raw.githubusercontent.com/itcarsales/PrusaBuilder-MK3/master/buildENV.sh)```
 
