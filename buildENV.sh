@@ -37,6 +37,9 @@ wget $BUILD_ENV_SOURCE
 unzip -q $MK3_WORKING/build-env/PF-build-env-Linux64-$BUILD_ENV.zip  -d $MK3_WORKING/build-env/PF-build-env-$BUILD_ENV
 rm $MK3_WORKING/build-env/PF-build-env-Linux64-$BUILD_ENV.zip
 
+# Add portable directory for Aduino IDE
+mkdir $MK3_WORKING/build-env/PF-build-env-$BUILD_ENV/portable
+
 # Modify Permissions of Pre-Zipped Files - removes final need for sudo
 chmod -R 775 $MK3_WORKING/build-env/PF-build-env-$BUILD_ENV
 
