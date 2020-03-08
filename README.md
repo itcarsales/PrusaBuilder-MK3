@@ -25,11 +25,11 @@
 
       - Select python 3.5 using the following command: (repeat this when finished building and return to python 2.7 - because Debian)
 
-      ```sudo update-alternatives --config python```
+         ```sudo update-alternatives --config python```
 
       - Now run:
 
-      ```bash <(curl -Ls https://raw.githubusercontent.com/itcarsales/PrusaBuilder-MK3/master/buildBIN.sh)```
+         ```bash <(curl -Ls https://raw.githubusercontent.com/itcarsales/PrusaBuilder-MK3/master/buildBIN.sh)```
 
    - Output hex file is at `"~/PrusaResearch/MK3/Prusa-Firmware/lang/firmware.hex"` . In the same folder you can hex files for other languages as well.
 
