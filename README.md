@@ -3,7 +3,7 @@
 
 1. If you do not have GIT installed, run:
 
-   ```sudo apt-get -y update -y; sudo apt-get -y install git```
+   ```sudo apt-get -y update -y; sudo apt-get -y install git python3```
 
 2. To install the environment, run:
 
