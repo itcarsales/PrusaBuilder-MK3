@@ -1,4 +1,4 @@
-#!/bin/bash 
+#!/bin/bash
 #Prusa MK3 Firmware Builder
 
 ####### Safety Dance
@@ -50,7 +50,10 @@ bash lang-build.sh
 
 # Complete final firmware compile
 bash fw-build.sh
-
+echo "---------------------"
+echo "python version used:"
+echo $(python --version)
+echo ""
 echo "Firmware Complete"
 if [ $variantCopy = 1 ]; then
     echo "$CURRENT_FIRMWARE_RELEASE file used"
