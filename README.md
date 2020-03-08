@@ -1,6 +1,8 @@
 # Linux Build
 ### This creates a PrusaResearch directory under the user's home directory to organize files and projects.  It maintains user permissions and security, and uses a portable version of Arduino IDE.  It allows the build environment to be created once, and the build script can be rerun without additional downloads.  To erase and start over, simply remove the PrusaResearch directory and rerun the environment setup.
 
+### Development Directory: /home/*user*/PrusaResearch/
+
 1. If you do not have GIT installed, run:
 
    ```sudo apt-get -y update -y; sudo apt-get -y install git python3```
